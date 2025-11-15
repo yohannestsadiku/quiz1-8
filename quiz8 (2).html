@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       .one a::after{
+        content: "[#fag]";
+        color: #666;
+       }
+        .two a::after{
+        content: "[#two]";
+        color: #666;
+       }
+        .three a::after{
+        content: "[#three]";
+        color: #666;
+       }
+        .four a::after{
+        content: " " attr(class);
+        color: #666;
+       }
+        .five a::after{
+        content: "[#five]";
+        color: #666;
+       }
+        .six a::after{
+        content: "[#six]";
+        color: #666;
+       }
+       .seven a::after{
+        content: "[#seven]";
+        color: #666;
+       }
+
+    </style>
+<body>
+    <h1>CSS Example</h1>
+    <div>
+     <p class="one">
+        This is an example pargraph <a href="#">Link one</a>
+    </p>
+    <p class="two">
+        This is an example pargraph <a href="#">Link two</a>
+    </p>
+    <p class="three">
+        This is an example pargraph <a href="#">Link three</a>
+    </p>
+    <p class="four">
+        This is an example pargraphh <a href="#">Link four</a>
+    </p>
+    <p class="five">
+       This is an example pargraph<a href="#">Link five</a>
+    </p>
+    <p class="six">
+        This is an example pargraph <a href="#">Link six</a>
+    </p>
+    <p class="seven">
+        This is an example pargraph <a href="#">Link seven</a>
+    </p>
+    </div>
+</body>
+</html>

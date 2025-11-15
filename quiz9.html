@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+ 
+    h1:only-child{
+        color: lightcoral;
+    }
+    #div > h1{
+        color:greenyellow
+    }
+    #div .one{
+        color: blueviolet;
+    }
+
+    h1[class="one"]{
+        color:darkorange;
+    }
+    h1[id="one"]{
+        color:rgb(141, 142, 128);
+    }
+    #div #one{
+        color:rgb(183, 209, 36);
+    }
+
+   h1{
+        color: red;
+    }
+    .one{
+        color :blue;
+    }
+    #one{
+        color :green;
+    }
+
+</style>
+</head>
+<body>
+    <div id = "div">
+        <h1 id="one" class="one">HELLO</h1>
+    </div>
+</body>
+</html>
